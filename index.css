@@ -1,0 +1,301 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:lightgrey;
+    margin: 0;
+    padding: 0;
+    height: 4100px;
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 2;
+    top:15px;
+    left: 250px;
+    font-size:65px;
+    font-style: italic;
+    font-family: "Copperplate Gothic", sans-serif;
+    font-weight: bold;
+}
+
+.titulo2{
+    color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 2;
+    writing-mode: vertical-rl;
+    top:150px;
+    left: 130px;
+    font-size:30px;
+    font-style: italic;
+    font-family: "Copperplate Gothic", sans-serif;
+    font-weight: bold;
+    background-color: #4ddd9f;
+    height: 100%;
+}
+
+.imagen-superpuesta {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 2; 
+    width: 150px;
+    top: -25px;
+    left: 70px;
+}
+
+.contenedor {
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    top: 0px;
+    height: 100px;
+    
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 20%;
+    font-weight: bold;
+    
+}
+
+ul li {
+    display: inline-block;
+    
+    padding-top: 80px;
+    
+    
+    padding-left: 130px;
+    
+
+    
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size:medium;
+    
+}
+
+.menu{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    font-weight: bold;
+    
+}
+a:hover{
+    color:#4ddd9f;
+}
+
+.video-container  {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    top: -100px;
+    border-width: 10px;
+    border: 5px #4ddd9f;
+    padding: 20px;
+    left: 40px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#queEs4{
+    position: relative;
+    left: 400px;
+    font-style: italic;
+}
+
+#queEs1{
+    width: 130%;
+    position: relative;
+    align-items: center;
+
+}
+
+#queEs2{
+    width: 60%;
+    position: relative;
+    top: 70px;
+}
+
+#queEs3{
+    width:60%;
+    position: relative;
+    top: 150px;
+    left: 570px;
+}
+
+#foto1{
+    width: 500px;
+    position: absolute;
+    right: -550px;
+    top: 40px;
+    padding: auto;
+    border: #000000;
+}
+#foto2{
+    width: 500px;
+    position: absolute;
+    right: 550px;
+    top: 40px;
+    padding: auto;
+}
+
+#caracteristicas1{
+    position: absolute;
+    top: 2000px;
+    left: 400px;
+    font-style: italic;
+}
+#caracteristicas2{
+    position: absolute;
+    top: 2070px;
+}
+
+#caracteristicas3{
+    position: absolute;
+    top: 2600px;
+}
+#caracteristicas4{
+    position: absolute;
+    top: 3350px;
+}
+
+
+#foto6{
+    position: absolute;
+    top: 2160px;
+    left: 15%;
+}
+#foto7{
+    position: absolute;
+    top: 2800px;
+    width: 1050px;
+    height: 450px;
+}
+.video-container2  {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    top: 1800px;
+    border-width: 10px;
+    border: 5px #4ddd9f;
+    padding: 20px;
+    left: 100px;
+    
+}
+
+#foto3{
+    position: absolute;
+    top: 4650px;
+    width: 400px;
+    left: 300px;
+    
+    
+}
+#foto4{
+    position: absolute;
+    top: 4650px;
+    width: 400px;
+    left: 700px;
+   
+  
+}
+#foto5{
+    position: absolute;
+    top: 4650px;
+    width: 400px;
+    left: -100px;
+  
+    
+}
+
+
+#productos1{
+    position: relative;
+    left: 400px;
+    font-style: italic;
+    top: 2900px ;
+}
+
+.botones a{
+    position: absolute;
+    display: inline;
+    width: 110px;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 150px 130px;
+    background-color: #000000;
+    color: white;
+    top: 5000px;
+    left: 300px;
+}
+
+#boton1{
+   position: absolute;
+   top: 4000px;
+}
+
+
+
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    top: 4000px;
+    position: relative;
+}
+
+footer a{
+    color:#4ddd9f;
+}
+
+nav ul a:link{
+    list-style-type:none ;
+    display: flex;
+    flex-direction: row;
+}
+
+#botonArriba{
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    width: 50px;
+    transition: all 2s;
+}
